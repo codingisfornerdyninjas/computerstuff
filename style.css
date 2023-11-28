@@ -76,9 +76,6 @@ html,body {
   display:none;
 }
 
-.hello:active {
-  animation:hellothing .9s forwards;
-}
 
 
 @keyframes hellothing {
