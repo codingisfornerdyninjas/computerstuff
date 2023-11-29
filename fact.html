@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cat Facts</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    </head>
+    <body>
+        <div class="fact">
+            <h1 id="fact"></h1>
+        </div>
+
+        <script>
+            fetch("https://cat-fact.herokuapp.com/facts/random").then(response = response.json().then(data => {
+                document.getElementById("fact").innerHTML = data.text
+            }))
+        </script>
+    </body>
+</html>
