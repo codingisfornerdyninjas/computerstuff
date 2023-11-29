@@ -83,6 +83,7 @@ body, html {
   color:rgb(0,21,23);
   font-family: 'Sometype Mono', monospace;
   font-style:italic;
+  overflow:hidden;
 }
 
 
@@ -100,6 +101,7 @@ body, html {
   color:rgb(0,21,23);
   font-family: 'Sometype Mono', monospace;
   font-style:italic;
+  overflow:hidden;
 }
 
 .ip {
@@ -112,4 +114,5 @@ body, html {
   color:rgb(0,21,23);
   font-family: 'Sometype Mono', monospace;
   font-style:italic;
+  overflow:hidden;
 }
