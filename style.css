@@ -1,6 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap');
 
+@media only screen and (max-width:600px) {
+  
+.nav .pas-a{
+  color:black;
+  text-decoration:none;
+  position:absolute;
+  top:2%;
+  color:rgb(51,211,255);
+  font-family: 'Mooli', sans-serif;
+  font-style:italic;
+}
+
+.nav .so-a{
+  color:black;
+  text-decoration:none;
+  position:absolute;
+  top:2%;
+  color:rgb(51,211,255);
+  font-family: 'Mooli', sans-serif;
+  font-style:italic;
+  left:10%;
+}
+}
+
 
 @keyframes a-hover {
   50% {
