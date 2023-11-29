@@ -7,20 +7,17 @@ function time(){
   document.getElementById("ip").innerHTML = "Your Ip: "+   data.ip
     }))
   }
-
-  function download(){
-    var s = document.createElement("a")
-    var ss = new Blob([document.innerHTML] , {
+  function download() {
+    var s = document.createElement("a");
+    var ss = new Blob([document.documentElement.innerHTML], {
         type: "text/html"
-    })
+    });
 
-    s.URL.createObjectURL(ss)
-    s.href = "index.html"
-    s.download =  s.URL.createObjectURL(ss)
-    s.click()
-    document.body.appendChild(s)
-
-  }
+    s.href = URL.createObjectURL(ss);
+    s.download = "index.html";
+    s.click();
+    document.body.appendChild(s);
+}
 
   ip()
   setInterval(time,1000)
