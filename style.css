@@ -85,8 +85,7 @@ body, html {
   background-color:blue;
   display:flexbox;
     top:10%;
-  left:39%;
-  text-align:center;
+   text-align:center;
   color:rgb(0,21,23);
   font-family: 'Sometype Mono', monospace;
   font-style:italic;
@@ -103,8 +102,7 @@ body, html {
   background-color:blue;
   display:flexbox;
     top:10%;
-  left:39%;
-  text-align:center;
+   text-align:center;
   color:rgb(0,21,23);
   font-family: 'Sometype Mono', monospace;
   font-style:italic;
@@ -116,10 +114,13 @@ body, html {
   background-color:blue;
   display:flexbox;
   top:10%;
-  left:39%;
-  text-align:center;
+   text-align:center;
   color:rgb(0,21,23);
   font-family: 'Sometype Mono', monospace;
   font-style:italic;
   overflow:hidden;
+}
+
+.time ,.ip , .abt {
+
 }
